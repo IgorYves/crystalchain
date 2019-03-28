@@ -52,8 +52,8 @@ public class Keyboard {
 }
 
 class Key {
-	int posX;
-	int posY;
+	private int posX;
+	private int posY;
 	Key(int posX, int posY) {
 		this.posX = posX;
 		this.posY = posY;
